@@ -1,1 +1,67 @@
 // Specific CSS for your home-page
+.banner {
+  color: #25373e;
+  text-align: center;
+  height: 90vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  -webkit-background-size: cover;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.corner3 {
+  border-radius: 50%;
+  background: #65a544;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.btn-pamper {
+  background-color: #65a544;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #65a544;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
